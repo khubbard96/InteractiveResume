@@ -76,6 +76,7 @@ body {
 .navigation-menu.active {
   left: 0;
   padding: 0 10px;
+  box-shadow: 1px 0px 6px 0px;
 }
 .navigation-menu > div {
   margin: 40px 0;
