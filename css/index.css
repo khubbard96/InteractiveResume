@@ -103,8 +103,8 @@ body {
   cursor: pointer;
   background: unset;
   border: none;
-  border-left: 0px solid #ffd740;
-  transition: border-left-color 0.5s, padding-left 0.5s, background-color 0.25s;
+  border-left: 5px solid rgba(0,0,0,0);
+  transition: border-left-color 0.25s, padding-left 0.5s, background-color 0.25s;
 }
 .navigation-menu .collection a.collection-item.current {
   border-left: 5px solid #ffd740;
