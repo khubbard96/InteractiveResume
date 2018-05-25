@@ -1,0 +1,80 @@
+/*main styles*/
+.main-content {
+  background-color: #fafafa;
+  padding-top: 64px;
+}
+.section {
+  width: 85%;
+  margin: 0 auto
+}
+.section .section-header {
+  font-size: 28pt;
+  font-weight: bold;
+}
+.section .section-content {
+  width: 85%;
+  margin: 0 auto;
+}
+.section .section-content p {
+  font-size: 14pt;
+  line-height: 30pt;
+
+}
+.section .section-content a {
+  cursor: pointer;
+}
+.section .section-content ul,
+.section .section-content ol {
+
+}
+.section .section-content li {
+
+}
+
+/*specific components*/
+/*languages cards*/
+#experience .lang-sec-header {
+  font-size: 20pt;
+  color: grey;
+  padding: 10px 0;
+}
+#experience .lang-card-rows .row{
+  padding: 0 10px;
+}
+#experience .lang-cards .card {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+#experience .lang-cards .card .card-image img {
+  height: 60px;
+  width: 60px !important;
+  margin: 10px;
+}
+#experience .lang-cards .card .card-content {
+  padding: 10px;
+  flex-grow: 1;
+  text-align: center;
+}
+#experience .lang-cards .card .card-content > div {
+  padding: 5px 0;
+}
+#experience .card .lang-rate {
+  position: relative;
+  display: inline;
+  letter-spacing: 5px;
+}
+#experience .card .lang-rate i.fa-star.back:before{
+  content: "\f005\f005\f005\f005\f005"
+}
+#experience .card .lang-rate i.fa-star.back {
+  left: 0;
+  color: #cfcccf;
+}
+#experience .card .lang-rate .rating {
+  position: absolute;
+  left: 0;
+}
+#experience .card .lang-rate .rating i {
+  color: #ffc207;
+}

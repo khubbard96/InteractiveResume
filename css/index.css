@@ -27,7 +27,7 @@ body {
   height: 150px;
   width: 150px;
   margin: 0 auto;
-  border: 5px solid #ffe082;
+  border: 5px solid #00bcd4;
   border-radius: 80px;
   background: url(http://localhost:8000/interactiveresume/images/profile.png) no-repeat;
   background-size: cover;
@@ -44,6 +44,7 @@ body {
 .main-header .qual-area div {
   margin: 0 7px;
   cursor: pointer;
+  background-color: #c5e1a5;
 }
 
 
@@ -102,14 +103,21 @@ body {
 }
 .navigation-menu .collection a.collection-item {
   cursor: pointer;
+  color: #c5e1a5;
   background: unset;
   border: none;
   border-left: 5px solid rgba(0,0,0,0);
   transition: border-left-color 0.25s, padding-left 0.5s, background-color 0.25s;
 }
 .navigation-menu .collection a.collection-item.current {
-  border-left: 5px solid #ffd740;
+  border-left: 5px solid #00bcd4;
   padding-left: 30px;
+}
+.navigation-menu .collection a.collection-item:hover {
+  background-color: #546e7a !important;
+}
+.navigation-menu .collection span.new.badge {
+  background-color: #00bcd4;
 }
 
 

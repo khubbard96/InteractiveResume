@@ -1,0 +1,52 @@
+/*default element styling*/
+body{
+
+}
+p {
+  margin-bottom: 75px;
+}
+a {
+  cursor: pointer;
+}
+
+
+#page_top.top-nav {/* Old browsers */
+  flex-direction: row;
+  color: white;
+  position: relative;
+  height: 64px;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0,0,0,.5);
+  z-index: 200;
+}
+#page_top .right-section,
+#page_top .left-section {
+  height: 100%
+}
+#page_top .right-section > div {
+  padding: 0 30px;
+  cursor: pointer;
+}
+#page_top .left-section > div {
+  padding: 0 15px;
+}
+#page_top .left-section .menu {
+  padding: 17px;
+}
+#page_top .left-section .site-name {
+  font-size: 16pt;
+}
+
+
+
+#page_top .contact .main-contact-button {
+  background-color: #cacaca;
+  border-radius: 10px;
+  padding: 3px;
+}
+#page_top .contact .main-contact-button .button-outline {
+  padding: 5px 10px;
+  border-radius: 7px;
+  border: 2px solid #7ef9ff;
+  color: #757575;
+}
