@@ -39,7 +39,6 @@
   padding: 10px 0;
 }
 #experience .lang-card-rows .row{
-  padding: 0 10px;
 }
 #experience .lang-cards .card {
   display: flex;
@@ -53,16 +52,16 @@
 }
 #experience .lang-cards .card .card-content {
   padding: 10px;
-  flex-grow: 1;
   text-align: center;
+  flex-grow: 1;
 }
 #experience .lang-cards .card .card-content > div {
-  padding: 5px 0;
+  margin: 5px 0;
 }
 #experience .card .lang-rate {
   position: relative;
+  letter-spacing: 0px;
   display: inline;
-  letter-spacing: 5px;
 }
 #experience .card .lang-rate i.fa-star.back:before{
   content: "\f005\f005\f005\f005\f005"
@@ -74,6 +73,7 @@
 #experience .card .lang-rate .rating {
   position: absolute;
   left: 0;
+  top:2px;
 }
 #experience .card .lang-rate .rating i {
   color: #ffc207;

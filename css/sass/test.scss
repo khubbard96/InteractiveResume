@@ -8,3 +8,7 @@
 body {
 
 }
+.left-nav ul.options a{
+  @extend .blue;
+  @extend .accent-3;
+}

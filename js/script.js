@@ -1,5 +1,34 @@
 $(document).ready(function(){
 
+  //nav collapse/open
+  $(document).find(".top-nav .menu").on("click",function(){
+    $(document).find("#page_nav_container .left-nav-wrap").toggleClass("collapsed");/*.on('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(e) {
+      $(this).find(".left-nav-fab").click();
+    });*/
+  });
+  /*$('.left-nav .left-nav-fab').floatingActionButton({
+    direction:"bottom",
+  });*/
+
+  $(".left-nav a").on("click",function(e){
+    $(document).find(".left-nav-wrap").addClass("collapsed");
+    e.stopPropagation();
+    //go to section
+  })
+  $(document).on("click", function(e){
+    $(document).find(".left-nav-wrap").addClass("collapsed");
+    e.stopPropagation();
+  });
+  $(".top-nav a.menu, .left-nav").on("click", function(e){
+    e.stopPropagation();
+  });
+
+  $(".tooltipped").tooltip({
+    delay: 50,
+    customClass: "pinned",
+  });
+
+
 
   //render language ratings
   var langRatings = lang_rate;

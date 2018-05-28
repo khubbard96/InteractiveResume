@@ -175,7 +175,7 @@
   color: #FF5252 !important;
 }
 
-.red.accent-3 {
+.red.accent-3, .left-nav ul.options a.red {
   background-color: #FF1744 !important;
 }
 
@@ -287,7 +287,7 @@
   color: #ff4081 !important;
 }
 
-.pink.accent-3 {
+.pink.accent-3, .left-nav ul.options a.pink {
   background-color: #f50057 !important;
 }
 
@@ -399,7 +399,7 @@
   color: #e040fb !important;
 }
 
-.purple.accent-3 {
+.purple.accent-3, .left-nav ul.options a.purple {
   background-color: #d500f9 !important;
 }
 
@@ -511,7 +511,7 @@
   color: #7c4dff !important;
 }
 
-.deep-purple.accent-3 {
+.deep-purple.accent-3, .left-nav ul.options a.deep-purple {
   background-color: #651fff !important;
 }
 
@@ -623,7 +623,7 @@
   color: #536dfe !important;
 }
 
-.indigo.accent-3 {
+.indigo.accent-3, .left-nav ul.options a.indigo {
   background-color: #3d5afe !important;
 }
 
@@ -639,7 +639,7 @@
   color: #304ffe !important;
 }
 
-.blue {
+.blue, .left-nav ul.options a {
   background-color: #2196F3 !important;
 }
 
@@ -647,7 +647,7 @@
   color: #2196F3 !important;
 }
 
-.blue.lighten-5 {
+.blue.lighten-5, .left-nav ul.options a.lighten-5 {
   background-color: #E3F2FD !important;
 }
 
@@ -655,7 +655,7 @@
   color: #E3F2FD !important;
 }
 
-.blue.lighten-4 {
+.blue.lighten-4, .left-nav ul.options a.lighten-4 {
   background-color: #BBDEFB !important;
 }
 
@@ -663,7 +663,7 @@
   color: #BBDEFB !important;
 }
 
-.blue.lighten-3 {
+.blue.lighten-3, .left-nav ul.options a.lighten-3 {
   background-color: #90CAF9 !important;
 }
 
@@ -671,7 +671,7 @@
   color: #90CAF9 !important;
 }
 
-.blue.lighten-2 {
+.blue.lighten-2, .left-nav ul.options a.lighten-2 {
   background-color: #64B5F6 !important;
 }
 
@@ -679,7 +679,7 @@
   color: #64B5F6 !important;
 }
 
-.blue.lighten-1 {
+.blue.lighten-1, .left-nav ul.options a.lighten-1 {
   background-color: #42A5F5 !important;
 }
 
@@ -687,7 +687,7 @@
   color: #42A5F5 !important;
 }
 
-.blue.darken-1 {
+.blue.darken-1, .left-nav ul.options a.darken-1 {
   background-color: #1E88E5 !important;
 }
 
@@ -695,7 +695,7 @@
   color: #1E88E5 !important;
 }
 
-.blue.darken-2 {
+.blue.darken-2, .left-nav ul.options a.darken-2 {
   background-color: #1976D2 !important;
 }
 
@@ -703,7 +703,7 @@
   color: #1976D2 !important;
 }
 
-.blue.darken-3, .blue.top-nav {
+.blue.darken-3, .left-nav ul.options a.darken-3, .blue.top-nav, .left-nav ul.options a.top-nav {
   background-color: #1565C0 !important;
 }
 
@@ -711,7 +711,7 @@
   color: #1565C0 !important;
 }
 
-.blue.darken-4 {
+.blue.darken-4, .left-nav ul.options a.darken-4 {
   background-color: #0D47A1 !important;
 }
 
@@ -719,7 +719,7 @@
   color: #0D47A1 !important;
 }
 
-.blue.accent-1 {
+.blue.accent-1, .left-nav ul.options a.accent-1 {
   background-color: #82B1FF !important;
 }
 
@@ -727,7 +727,7 @@
   color: #82B1FF !important;
 }
 
-.blue.accent-2 {
+.blue.accent-2, .left-nav ul.options a.accent-2 {
   background-color: #448AFF !important;
 }
 
@@ -735,7 +735,7 @@
   color: #448AFF !important;
 }
 
-.blue.accent-3 {
+.blue.accent-3, .left-nav ul.options a {
   background-color: #2979FF !important;
 }
 
@@ -743,7 +743,7 @@
   color: #2979FF !important;
 }
 
-.blue.accent-4 {
+.blue.accent-4, .left-nav ul.options a.accent-4 {
   background-color: #2962FF !important;
 }
 
@@ -847,7 +847,7 @@
   color: #40c4ff !important;
 }
 
-.light-blue.accent-3 {
+.light-blue.accent-3, .left-nav ul.options a.light-blue {
   background-color: #00b0ff !important;
 }
 
@@ -959,7 +959,7 @@
   color: #18ffff !important;
 }
 
-.cyan.accent-3 {
+.cyan.accent-3, .left-nav ul.options a.cyan {
   background-color: #00e5ff !important;
 }
 
@@ -1071,7 +1071,7 @@
   color: #64ffda !important;
 }
 
-.teal.accent-3 {
+.teal.accent-3, .left-nav ul.options a.teal {
   background-color: #1de9b6 !important;
 }
 
@@ -1183,7 +1183,7 @@
   color: #69F0AE !important;
 }
 
-.green.accent-3 {
+.green.accent-3, .left-nav ul.options a.green {
   background-color: #00E676 !important;
 }
 
@@ -1295,7 +1295,7 @@
   color: #b2ff59 !important;
 }
 
-.light-green.accent-3 {
+.light-green.accent-3, .left-nav ul.options a.light-green {
   background-color: #76ff03 !important;
 }
 
@@ -1407,7 +1407,7 @@
   color: #eeff41 !important;
 }
 
-.lime.accent-3 {
+.lime.accent-3, .left-nav ul.options a.lime {
   background-color: #c6ff00 !important;
 }
 
@@ -1519,7 +1519,7 @@
   color: #ffff00 !important;
 }
 
-.yellow.accent-3 {
+.yellow.accent-3, .left-nav ul.options a.yellow {
   background-color: #ffea00 !important;
 }
 
@@ -1631,7 +1631,7 @@
   color: #ffd740 !important;
 }
 
-.amber.accent-3 {
+.amber.accent-3, .left-nav ul.options a.amber {
   background-color: #ffc400 !important;
 }
 
@@ -1743,7 +1743,7 @@
   color: #ffab40 !important;
 }
 
-.orange.accent-3 {
+.orange.accent-3, .left-nav ul.options a.orange {
   background-color: #ff9100 !important;
 }
 
@@ -1855,7 +1855,7 @@
   color: #ff6e40 !important;
 }
 
-.deep-orange.accent-3 {
+.deep-orange.accent-3, .left-nav ul.options a.deep-orange {
   background-color: #ff3d00 !important;
 }
 
@@ -2843,13 +2843,13 @@ ul.staggered-list li {
   }
 }
 
-@media only screen and (min-width : 1201px) {
+@media only screen and (min-width : 1281px) {
   .hide-on-extra-large-only {
     display: none !important;
   }
 }
 
-@media only screen and (min-width : 1201px) {
+@media only screen and (min-width : 1281px) {
   .show-on-extra-large {
     display: block !important;
   }
@@ -3890,7 +3890,7 @@ table span.badge {
     left: 100%;
   }
 }
-@media only screen and (min-width : 1201px) {
+@media only screen and (min-width : 1281px) {
   .row .col.xl1 {
     width: 8.3333333333%;
     margin-left: auto;
@@ -4271,7 +4271,7 @@ html {
     font-size: 14.5px;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1280px) {
   html {
     font-size: 15px;
   }
@@ -4347,102 +4347,102 @@ small {
     font-size: 1.2rem;
   }
 }
-@media only screen and (min-width: 390px) {
+@media only screen and (min-width: 394px) {
   .flow-text {
     font-size: 1.224rem;
   }
 }
-@media only screen and (min-width: 420px) {
+@media only screen and (min-width: 428px) {
   .flow-text {
     font-size: 1.248rem;
   }
 }
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 462px) {
   .flow-text {
     font-size: 1.272rem;
   }
 }
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 496px) {
   .flow-text {
     font-size: 1.296rem;
   }
 }
-@media only screen and (min-width: 510px) {
+@media only screen and (min-width: 530px) {
   .flow-text {
     font-size: 1.32rem;
   }
 }
-@media only screen and (min-width: 540px) {
+@media only screen and (min-width: 564px) {
   .flow-text {
     font-size: 1.344rem;
   }
 }
-@media only screen and (min-width: 570px) {
+@media only screen and (min-width: 598px) {
   .flow-text {
     font-size: 1.368rem;
   }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 632px) {
   .flow-text {
     font-size: 1.392rem;
   }
 }
-@media only screen and (min-width: 630px) {
+@media only screen and (min-width: 666px) {
   .flow-text {
     font-size: 1.416rem;
   }
 }
-@media only screen and (min-width: 660px) {
+@media only screen and (min-width: 700px) {
   .flow-text {
     font-size: 1.44rem;
   }
 }
-@media only screen and (min-width: 690px) {
+@media only screen and (min-width: 734px) {
   .flow-text {
     font-size: 1.464rem;
   }
 }
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 768px) {
   .flow-text {
     font-size: 1.488rem;
   }
 }
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 802px) {
   .flow-text {
     font-size: 1.512rem;
   }
 }
-@media only screen and (min-width: 780px) {
+@media only screen and (min-width: 836px) {
   .flow-text {
     font-size: 1.536rem;
   }
 }
-@media only screen and (min-width: 810px) {
+@media only screen and (min-width: 870px) {
   .flow-text {
     font-size: 1.56rem;
   }
 }
-@media only screen and (min-width: 840px) {
+@media only screen and (min-width: 904px) {
   .flow-text {
     font-size: 1.584rem;
   }
 }
-@media only screen and (min-width: 870px) {
+@media only screen and (min-width: 938px) {
   .flow-text {
     font-size: 1.608rem;
   }
 }
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 972px) {
   .flow-text {
     font-size: 1.632rem;
   }
 }
-@media only screen and (min-width: 930px) {
+@media only screen and (min-width: 1006px) {
   .flow-text {
     font-size: 1.656rem;
   }
 }
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 1040px) {
   .flow-text {
     font-size: 1.68rem;
   }

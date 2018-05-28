@@ -2,10 +2,10 @@
   <head>
     <title>Kevin Hubbard - Resume</title>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
     <script type="text/javascript" src="js/underscore-min.js"></script>
     <script type="text/javascript" src="js/data.json"></script>
     <script type="text/javascript" src="js/script.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
 
     <link href="css/may-22.css" rel="stylesheet" type="text/css" />
     <link href="css/sections.css" rel="stylesheet" type="text/css" />
@@ -14,31 +14,43 @@
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   </head>
   <body>
-    <div class="top-nav pinned" id="page_top">
-      <div class="left-section left valign-wrapper">
-        <div class="menu">
-          <i class="fas fa-bars fa-2x"></i>
+    <div class="pinned" id="page_nav_container">
+      <div class="top-nav" id="page_top">
+        <div class="left-section left valign-wrapper">
+          <a class="menu" id="left_nav_activate">
+            <i class="fas fa-bars fa-2x"></i>
+          </a>
+          <div class="site-name">
+            Kevin Hubbard
+          </div>
         </div>
-        <div class="site-name">
-          Kevin Hubbard
-        </div>
-      </div>
-      <div class="right-section right valign-wrapper">
-        <div class="fb icon">
-          <i class="fab fa-facebook-square fa-2x"></i>
-        </div>
-        <div class="insta icon">
-          <i class="fab fa-instagram fa-2x"></i>
-        </div>
-        <div class="git icon">
-          <i class="fab fa-github fa-2x"></i>
-        </div>
-        <div class="contact">
-          <div class="main-contact-button">
-            <div class="button-outline">
-              CONTACT
+        <div class="right-section right valign-wrapper">
+          <div class="fb icon">
+            <i class="fab fa-facebook-square fa-2x"></i>
+          </div>
+          <div class="insta icon">
+            <i class="fab fa-instagram fa-2x"></i>
+          </div>
+          <div class="git icon">
+            <i class="fab fa-github fa-2x"></i>
+          </div>
+          <div class="contact">
+            <div class="main-contact-button">
+              <div class="button-outline">
+                CONTACT
+              </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="left-nav-wrap collapsed">
+        <div class="left-nav">
+          <ul class="browser-default options">
+            <li><a class="btn-floating tooltipped" data-position="right" data-tooltip="Section1"><i class="material-icons">info</i></a></li>
+            <li><a class="btn-floating tooltipped" data-position="right" data-tooltip="Section2"><i class="material-icons">info</i></a></li>
+            <li><a class="btn-floating tooltipped" data-position="right" data-tooltip="Section3"><i class="material-icons">info</i></a></li>
+            <li><a class="btn-floating tooltipped" data-position="right" data-tooltip="Section4"><i class="material-icons">info</i></a></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -87,7 +99,8 @@
           <p>
             I've been able to learn several programming languages, frameworks,
             and other supporting skills through my schoolwork, cooperative
-            education, and learning on my own.
+            education, and learning on my own. I've rated my relative knowledge
+            and experience with these languages below.
           </p>
           <div class="lang-card-rows">
 
@@ -116,14 +129,14 @@
         </div>
       </div>
     </div>
-    <div class="left-nav">
 
-    </div>
+
+
 
     <!-- templates -->
     <script type="text/html" id="lang_desc_card">
-      <div class="col s12 m4">
-        <div class="card">
+      <div class="col s12 l6 xl4">
+        <div class="card hoverable">
           <div class="card-image">
             <img src="link/to/language/icon">
           </div>
