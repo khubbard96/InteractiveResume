@@ -27,6 +27,9 @@ $(document).ready(function(){
     delay: 50,
     customClass: "pinned",
   });
+  $("#page_nav_container").on("mousewheel",function(e){
+    e.preventDefault();
+  })
 
 
 
