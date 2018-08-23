@@ -1,6 +1,6 @@
 /*default element styling*/
 body{
-
+  overflow-y: hidden;
 }
 p + p {
   margin-top: 75px;
@@ -66,7 +66,7 @@ a {
 
 /*left side navigation */
 .left-nav-wrap {
-  width:70px;
+  top: 64px;
   height: 1px;
   position: absolute;
   left:-10px;
@@ -78,7 +78,6 @@ a {
 .left-nav-wrap .left-nav {
   height: calc(100vh - 64px);
   box-shadow: inset -2px 0px 8px rgba(0,0,0,.5);
-  background-color: #d0d0d0;
 }
 .left-nav ul.options{
   margin: 0;
@@ -88,10 +87,13 @@ a {
 }
 .left-nav ul.options li {
   text-align: center;
-  padding: 10px 0;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.2s;
 }
-.left-nav ul.options li i {
-  font-size: 30pt;
+.left-nav ul.options li a {
+  padding: 0;
+  color: grey;
 }
 .left-nav-wrap.collapsed ul.options {
   padding-top: 30px;

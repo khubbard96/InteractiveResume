@@ -58,5 +58,10 @@ lang_rate = {
       "name":"Python",
       "rate":"4",
       "img":"https://www.python.org/static/opengraph-icon-200x200.png",
+    },
+    "node":{
+      "name":"NodeJS",
+      "rate":"2",
+      "img":"",
     }
 }

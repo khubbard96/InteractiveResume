@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+}
+
+#page_title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+#page_title #page_subtitle {
+  font-size: 1rem;
+  font-weight: normal;
+}
+.content-wrap {
+
+}
+/*******/
+/* The whole page is considered to be a presentation, with different slides */
+/*******/
+#presentation .slice {
+  /*white*/
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  margin: 0 auto;
+
+}
+/* Slides have alernating colors */
+#presentation .slice:nth-child(even) {
+  /*beige*/
+  background-color: #F4E9CD;
+}
+
+/******************************************/
+/*** main content partitions - 'slices' ***/
+/******************************************/
+.slice {
+  padding: 50px 0px;
+}
+.slice > .title {
+
+}
+/*slices can have different segments, with their own text alignments*/
+.slice .segment {
+  width: 80%;
+  margin: 0 auto;
+}
+.slice .segment .title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 1.5rem 0px;
+  color: #031926;
+}
+/*slice segment defaults*/
+.slice .segment .text {
+  font-weight: normal;
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+.slice .segment .image {
+
+}
+
+/*text layouts*/
+.segment.split-text {
+  display: flex;
+  flex-direction: row;
+}
+.segment.split-text .text-left {
+  text-align: left;
+  padding-right: 3rem;
+}
+.segment.split-text .text-right {
+  text-align: right;
+  padding-left: 3rem;
+}
+.segment.whole-text {
+  text-align: justify;
+}
+
+/******/
+/* Some fun design elements */
+/******/
+.info-table {
+
+}
+.timeline {
+
+}

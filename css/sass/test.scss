@@ -8,7 +8,15 @@
 body {
 
 }
-.left-nav ul.options a{
-  @extend .blue;
-  @extend .accent-3;
+.left-nav ul.options a {
+  @extend .blue-grey-text;
+  @extend .text-darken-3;
+}
+.left-nav ul.options li:hover {
+  @extend .blue-grey;
+  @extend .lighten-3;
+}
+.left-nav {
+  @extend .blue-grey;
+  @extend .lighten-5;
 }

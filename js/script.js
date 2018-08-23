@@ -2,7 +2,7 @@ $(document).ready(function(){
 
   //nav collapse/open
   $(document).find(".top-nav .menu").on("click",function(){
-    $(document).find("#page_nav_container .left-nav-wrap").toggleClass("collapsed");/*.on('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(e) {
+    $(document).find(".left-nav-wrap").toggleClass("collapsed");/*.on('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(e) {
       $(this).find(".left-nav-fab").click();
     });*/
   });
@@ -29,7 +29,8 @@ $(document).ready(function(){
   });
   $("#page_nav_container").on("mousewheel",function(e){
     e.preventDefault();
-  })
+  });
+  //correct positioning of left nav collapsed
 
 
 
